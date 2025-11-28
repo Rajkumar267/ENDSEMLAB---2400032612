@@ -1,0 +1,101 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center everything */
+body {
+  background: #eef2f3;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
+/* Layout */
+.container {
+  text-align: center;
+}
+
+.forms-wrapper {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* LOGIN BOX (smaller) */
+.login-form {
+  background: #ffffff;
+  padding: 28px;
+  width: 320px;
+  border-radius: 16px;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  block-size: 52ch;
+}
+
+/* REGISTER BOX (bigger) */
+.register-form {
+  background: #ffffff;
+  padding: 28px;
+  width: 360px;
+  border-radius: 16px;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title */
+form h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+/* Labels */
+form label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+/* Inputs & dropdowns */
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #bcbcbc;
+  margin-top: 4px;
+  margin-bottom: 14px;
+  background: #fafafa;
+}
+
+/* Checkbox */
+form label input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+  transform: translateY(2px);
+}
+
+/* Button */
+form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #005dcc;
+}
